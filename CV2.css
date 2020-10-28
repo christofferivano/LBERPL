@@ -2,3 +2,24 @@
 {
     padding: 25px 15px;
 }
+
+.subdetail
+{
+    color: blue;
+}
+
+.subcontent p
+{
+    font-size: 1em;
+}
+
+.subcontent ul
+{
+    font-size: 1em;
+}
+
+.intern ul
+{
+    font-style: italic;
+    font size: 1.5em;
+}
