@@ -1,11 +1,31 @@
+#foto {
+    width: 12.5%;
+    float: left;
+    margin-right: 30px;
+    margin-left: 10px;
+    border: 5px mintcream;
+}
+
+#foto img {
+    width: 100%;
+    height: auto;
+    border: 2px solid mintcream;
+}
 .maindetail
 {
     padding: 25px 15px;
+    background-color: dimgray;
+    color: white;
 }
 
-.subdetail
+.subdetail .side1
 {
-    color: blue;
+    color: white;
+}
+
+.subdetail .side2
+{
+    margin-bottom: 5px;
 }
 
 .subcontent p
@@ -18,8 +38,40 @@
     font-size: 1em;
 }
 
-.intern ul
+.intern ol
 {
-    font-style: italic;
-    font size: 1.5em;
+    font-size: 20px;
+}
+
+.place
+{
+    font-size: medium;
+}
+
+.interndetail
+{
+    font-size: small;
+}
+
+.side1
+{
+    background-color: black;
+    color : honeydew;
+    float: left;
+    padding : 10px;
+    width : 300px;
+}
+
+.side2
+{
+    float: right;
+    padding : 10px;
+    width : 450px;
+}
+
+#cv {
+    width: 90%;
+    max-width: 800px;
+    background: #f3f3f3;
+    margin: 30px auto;
 }
