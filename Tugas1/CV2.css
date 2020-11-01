@@ -37,8 +37,8 @@ body
 .maindetail
 {
     padding: 25px 15px;
-    background-color: dimgray;
     color: white;
+    background-size: cover;
 }
 
 .subdetail .side1
@@ -78,12 +78,12 @@ body
 
 .side1
 {
-    background-color: black;
+    background-size: cover;
     color : honeydew;
     float: left;
     padding : 10px;
     width : 300px;
-    height: 520px;
+    height: 620px;
 }
 
 .side2
@@ -91,7 +91,8 @@ body
     float: right;
     padding : 10px;
     width : 460px;
-    background-color: white;
+    height: 620px;
+    background-size: cover;
 }
 
 #cv {
